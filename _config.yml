@@ -6,6 +6,7 @@ baseurl: "/work-portfolio"
 remote_theme: claudielarouche/portfolio-theme
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
 
 collections:
   projects:
