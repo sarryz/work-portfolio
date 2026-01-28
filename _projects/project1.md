@@ -5,6 +5,6 @@ description: "Short description of the project."
 image: "/work-portfolio/assets/img/project1.jpg"
 ---
 
-{{ page.image | relative_url }}
+<img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
 
 Write the longer project details here.
